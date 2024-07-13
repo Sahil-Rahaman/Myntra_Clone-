@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+    display: flex;
+}
+.myntra_navbar{
+    display: flex;
+    height: 80px;
+    box-shadow: 5px 4px 4px rgba(198, 196, 196, 0.5);
+    justify-content: space-evenly;
+}
+
+.myntra_navbar img{
+    width: 59px;
+    height: 41px;
+    padding: 20px;
+    padding-top: 21px;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+    align-items: center;
+
+}
+
+.nav_container a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #282c3f;
+}
+
+sup{
+    color: #ff4e78;
+}
+
+#search_icon{
+    position: relative;
+    left: 17px;
+    top: 4px;
+}
+.searchbar input{
+    height: 36px;
+    width: 419px;
+    border-radius: 2px;
+    padding-left: 46px;
+    background-color: #f5f5f6;
+    border: 1px solid #f5f5f6;
+    margin-top: 20px;
+    margin-left: -13px;
+    
+}
+
+.action_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 195px;
+}
+
+.action_name{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.action_bar i{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    padding-top: 40px;
+    width: 100%;
+}
+
+.medal_text{
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.medal_brands{
+    display: flex;
+    
+}
+
+.medal_image{
+    width: 100%;
+}
+
+.global_text{
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.global_brands{
+    display: flex;
+}
+
+.global_image{
+    width:100%;
+}
+
+.category_text{
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_brands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.category_image{
+    width: 191px;
+}
+
+.scetion_1{
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_contaiiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contaiiner a{
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+}
+
+h3{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
